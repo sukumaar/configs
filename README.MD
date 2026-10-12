@@ -9,10 +9,12 @@ changes over time.
 Each tool's configuration lives in its own file or directory. Shared settings
 belong in this repository; credentials and machine-specific settings stay local.
 The shared [.gitignore](.gitignore) is itself a configuration for common
-development files, alongside the [WezTerm configuration](.wezterm.lua).
+development files.
 
-## Using a configuration
+## Installation
 
-Copy or link the files you need to the locations expected by their tools. Back
-up any existing settings before replacing them, and adjust local paths or
-preferences for your machine.
+| File | Install location | How to use it |
+| --- | --- | --- |
+| [.gitignore](.gitignore) | Root of each Git project | Copy it into a new project, or merge its rules with an existing `.gitignore`. |
+| [.wezterm.lua](.wezterm.lua) | `~/.wezterm.lua` | Copy or link the file. |
+| [config.ghostty](config.ghostty) | `~/.config/ghostty/config.ghostty` | Copy or link the file; it is currently empty. |
