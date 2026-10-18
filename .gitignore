@@ -32,6 +32,17 @@ node_modules/
 .nuxt/
 .turbo/
 
+# Prisma generated client
+**/generated/prisma/
+
+# Local SQLite databases (including Prisma and Drizzle projects)
+*.db
+*.db-*
+*.sqlite
+*.sqlite-*
+*.sqlite3
+*.sqlite3-*
+
 # Build output and logs
 build/
 dist/
