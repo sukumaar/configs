@@ -107,3 +107,9 @@ HELP.md
 /.nb-gradle/
 !**/src/main/**/build/
 !**/src/test/**/build/
+
+
+### vs code devcontainer
+.devcontainer/**/   
+!.devcontainer/devcontainer.json
+!.devcontainer/Dockerfile
